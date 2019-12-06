@@ -5,4 +5,12 @@ spring:
     broker-url: tcp://192.168.162.131:61616
     user: admin
     password: admin
+  #### 开启发布订阅
+  jms:
+    pub-sub-domain: true
+
+
+topic: spring-topic
 queue: springboot-queue
+
+
